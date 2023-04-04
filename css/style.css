@@ -23,11 +23,22 @@ body {
 .logo-text {
     font-size: 40px ;
     font-weight: bold;
-    display: inline-block;
 }
 /*FINE HEADER*/
 /*MAIN*/
 .background {
-    background-color: lightgray;
+    background-color: rgb(237, 237, 237);
+    background-size:cover;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.pagina {
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 2%;
 }
 /*FINE MAIN*/
