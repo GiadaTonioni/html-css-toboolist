@@ -41,4 +41,32 @@ body {
     margin-top: 20px;
     border-radius: 2%;
 }
+
+
+.bottone {
+    font-size: 12px;
+    padding: 8px 18px;
+    display: inline-block;
+    margin-top:15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+
+#bottone-blu {
+    background-color: rgb(22, 161, 212);
+    border: none;
+    color: white;
+    margin-left: 40px;
+}
+
+#bottone-bianco {
+    background-color: white;
+    color: lightgray;
+    border-color: lightgrey;
+}
+
+hr {
+    border-top: 3px solid rgb(237, 237, 237);
+}
 /*FINE MAIN*/
