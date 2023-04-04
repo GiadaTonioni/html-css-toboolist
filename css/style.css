@@ -42,6 +42,10 @@ body {
     border-radius: 2%;
 }
 
+.contenuto {
+    margin-left: 40px;
+}
+
 
 .bottone {
     font-size: 12px;
@@ -57,7 +61,6 @@ body {
     background-color: rgb(22, 161, 212);
     border: none;
     color: white;
-    margin-left: 40px;
 }
 
 #bottone-bianco {
@@ -73,12 +76,30 @@ hr {
 .scritta-grande {
     font-size: 20px;
     font-weight: bold;
-    margin-left: 40px;
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .scritta-piccola {
-    
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.yes {
+    color:rgb(43, 206, 43);
+    background-color: white;
+    border:2px solid  rgb(43, 206, 43);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.lable-blu-base {
+    background-color: rgb(22, 161, 212);
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding: 5px 15px;
+    border-radius: 10px;
+
 }
 /*FINE MAIN*/
