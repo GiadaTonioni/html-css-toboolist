@@ -5,13 +5,13 @@
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /*HEADER*/
 #heading {
     background-color: white;
-    padding: 20 20;
+    padding: 20px;
 }
 
 .logo {
@@ -23,6 +23,7 @@ body {
 .logo-text {
     font-size: 40px ;
     font-weight: bold;
+    vertical-align:middle;
 }
 /*FINE HEADER*/
 /*MAIN*/
@@ -64,9 +65,9 @@ body {
 }
 
 #bottone-bianco {
-    background-color: white;
+    background-color: transparent;
     color: lightgray;
-    border-color: lightgrey;
+    border: 1px solid lightgrey;
 }
 
 hr {
@@ -91,15 +92,15 @@ hr {
     color:rgb(43, 206, 43);
     border:1px solid  rgb(43, 206, 43);
     border-radius: 50%;
-    padding: 3px;
+    padding: 3px 6px;
     margin-right: 5px;
 }
 
-#no {
+.no {
     border:1px solid  red;
     color:red;
     border-radius: 50%;
-    padding: 3px;
+    padding: 3px 6px;
     margin-right: 5px;
 }
 
